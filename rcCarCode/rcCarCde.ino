@@ -4,7 +4,7 @@
 #define MOTOR_B_b 6     //모터B의 -출력핀은 6번핀입니다
 #define MOTOR_SPEED 150 //모터의 기준속력입니다(0~255)
 
-unsigned char m_a_spd = 0, //A모터의 속력을 저장하는 전역변수
+unsigned char m_a_spd = 0; //A모터의 속력을 저장하는 전역변수
 unsigned char m_b_spd = 0; //B모터의 속력을 저장하는 전역변수
 
 boolean m_a_dir = 0; //A모터의 방향을 결정하는 전역변수
